@@ -1,0 +1,190 @@
+<html>
+<head>
+<style>
+    ul { /* 取消ul預設的內縮及樣式 */
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul.drop-down-menu {
+        border: #ccc 1px solid;
+        display: inline-block;
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 13px;
+    }
+
+    ul.drop-down-menu li {
+        position: relative;
+        white-space: nowrap;
+        border-right: #ccc 1px solid;
+    }
+
+    ul.drop-down-menu > li:last-child {
+        border-right: none;
+    }
+
+    ul.drop-down-menu > li {
+        float: left; /* 只有第一層是靠左對齊*/
+    }
+
+     ul.drop-down-menu a {
+        background-color: #fff;
+        color: #333;
+        display: block;
+        padding: 0 30px;
+        text-decoration: none;
+        line-height: 40px;
+
+    }
+    ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
+        background-color: #ef5c28;
+        color: #fff;
+    }
+    ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+        background-color: #ef5c28;
+        color: #fff;
+    }
+    
+    ul.drop-down-menu ul {
+        border: #ccc 1px solid;
+        position: absolute;
+        z-index: 99;
+        left: -1px;
+        top: 100%;
+       min-width: 180px;
+    }
+
+    ul.drop-down-menu ul li {
+        border-bottom: #ccc 1px solid;
+    }
+
+    ul.drop-down-menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    ul.drop-down-menu ul ul { /*第三層以後的選單出現位置與第二層不同*/
+        z-index: 999;
+        top: 10px;
+        left: 90%;
+    }
+
+    ul.drop-down-menu ul { /*隱藏次選單*/
+        display: none;
+    }
+
+    ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+        display: block;
+    }
+    
+    h1{color: blue;font-size: 30px;text-align: center;}
+    h2{color: deepskyblue;}
+    
+    
+    </style>
+    
+    
+</head>
+    
+    
+<body><ul class="drop-down-menu">
+        <li><a href="https://rubyyuchiahsuan.github.io/">HOME</a>
+        </li>
+        <li><a href="#">國標舞簡介</a>
+        </li>
+        <li><a href="#">服務項目</a>
+            <ul>
+                <li><a href="#">舞蹈教學</a>
+                    <ul>
+                        <li><a href="#">CHA CHA</a>
+                        </li>
+                        <li><a href="#">RUMBA</a>
+                        </li>
+                        <li><a href="#">吉魯巴</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">舞衣出租</a>
+                </li>
+                <li><a href="#">編舞設計</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#">幹部介紹</a>
+        </li>
+        <li><a href="#">演出影片</a>
+            <ul>
+                        <li><a href="#">13屆</a>
+                            <ul>
+                                <li><a href="https://www.youtube.com/watch?v=lRFaVhskBUw">愛存在</a>
+                                </li>
+                                <li><a href="https://www.youtube.com/watch?v=dDUEFE8_s3w">Lotino</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">14屆</a>
+                            <ul>
+                                <li><a href="https://www.youtube.com/watch?v=8dsEuRXPQvo">I Feel Good</a>
+                                </li>
+                                <li><a href="https://www.youtube.com/watch?v=zi7nKc-6PG8">Wake Wake</a>
+                                </li>
+                                <li><a href="https://www.youtube.com/watch?v=kR1AO518Iq4">畫心</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">15屆</a>
+                            <ul>
+                                <li><a href="https://www.youtube.com/watch?v=NLIpeme9aGs">菊花台</a>
+                                </li>
+                                <li><a href="https://www.youtube.com/watch?v=iNy59AYiDf0">Domino</a>
+                                </li>
+                                <li><a href="https://www.youtube.com/watch?v=XXwv6VIYRjo">My Heart Will Go On</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+        </li>
+        <li><a href="https://www.facebook.com/ntoublueocean/?hc_ref=SEARCH">聯絡我們(fb粉專)</a>
+        </li>
+    </ul>
+    
+    <img scr="bo1.jpg">
+    <img scr="bo2.jpg">
+    <img scr="bo3.jpg">
+    <img scr="bo4.jpg">
+    <img scr="bo5.jpg">
+    
+    <h1>海洋大學藍海國際標準舞蹈社</h1>
+    <h1>~~Blue Ocean~~</h1>
+    
+    
+        <h2>定名</h2>
+        本社團全名為「藍海國際標準舞蹈社」社團的前身為「民俗舞蹈社」，由於因應時代潮流於91學年度正式改為國際標準舞蹈社。<br>
+
+        <h2>宗旨與目標</h2>
+        藍海國際標準舞蹈社之宗旨在於在於提供海大青年多元發展之空間，使之適應團體生活並協助他們個人發展之知識與技能，達到自我成長、自我實現的目標。<br>
+        <br>
+        1.	培養專業舞蹈及領導合作技巧。<br>
+        2.	強調尊重他人權利及提升道德標準及個人之尊嚴。<br>
+        3.	提供機會給社員表現自己的長才。<br>
+        4.	鼓勵社員培養終身興趣。<br>
+
+        <h2>本屆特色</h2>    
+        十五屆(本屆)最大的特色就是女人，幹部團裡有一個來海大念碩士的學長，畢竟碩士生比較忙，而且他希望我們可以學習社團運作因此未干涉我們太多，於是十五屆就成了五個女生的天下。國標舞是男女雙人的合舞，對只有女生的我們來說困難重重，好險學長很罩的幫忙我們的每場表演，我們也在康聯展中表演幾乎是女舞的單人國標，這也許是我們未來的發展趨勢，當然我們的目標是在招生時能夠男女平衡。<br>
+        <br>
+        十五屆的幹部團看得出人數較少，但我們仍舊盡心盡力地維持社團的營運狀況！也許這當中遇到很多不順利的事情或是失敗，但我們沒有因此逃避不管，記取學長姐的教誨再接再厲。今年在淡江盃，新生組獲得恰恰第五名以及倫巴第五名，新秀組分別獲的一個第三名、兩個第二名以及一個第一名，期待在下一學期招到更多對國標有興趣的同學，並辦一場成功的成果發表會展現我們這一年的努力。<br>
+
+    
+    
+    <div>
+      <pre>
+          
+          
+          
+  │國立台灣海洋大學 ‧ 海洋大學藍海國際標準舞蹈社 │ 社長:朱靖葳 09******** │<br>
+  │地址：基隆市中正區北寧路2號 │基隆火車站，轉103、104公車至海洋大學站到校 <br>
+  │Designed by 余嘉萱
+      </pre>
+  </div>
+</body>
+</html>
